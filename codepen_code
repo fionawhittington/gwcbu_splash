@@ -1,0 +1,16 @@
+<!-- Below is the tutorial I used to get started, for people who are interested-->
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+
+<!--Copy and paste code below into CodePen add HTML documentation to run it off local server-->
+
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/examples/vendor/aframe/build/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs='trackingMethod: best;'>
+      <a-anchor hit-testing-enabled='true'>
+         <a-box src="https://raw.githubusercontent.com/fionawhittington/gwcbu_splash/master/13935097_1076732425741765_6708902754002348876_n.jpg" position='0 0.5 0' rotation="0 45 45"
+    scale="2 2 2"></a-box>
+      </a-anchor>
+		<a-camera-static/>
+	</a-scene>
+</body>
